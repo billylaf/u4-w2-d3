@@ -127,11 +127,11 @@ void main(String[] args) {
     boysDiscount.forEach(System.out::println);
 
 
-    System.out.println("///////////////////////////////// es 4 ///////////////////////////////////////");
+    /*System.out.println("///////////////////////////////// es 4 ///////////////////////////////////////");
     LocalDate today = LocalDate.now();
      List<Orders> tierOrder= ordersList.stream().filter(orders -> orders.getOrderDate().equals(today)).toList();
      for (Orders orders:tierOrder){
          if (orders.getCustomer())
-     }
+     }*/
 }
 
