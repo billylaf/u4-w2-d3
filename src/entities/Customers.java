@@ -9,7 +9,7 @@ public class Customers {
     private Integer tier;
 
     public Customers(String name) {
-        this.id = this.id = (long) random.nextInt();
+        this.id = (long) random.nextInt();
         this.name = name;
         this.tier = random.nextInt(0, 3);
     }

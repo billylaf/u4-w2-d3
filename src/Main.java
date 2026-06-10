@@ -122,16 +122,14 @@ void main(String[] args) {
     List<Products> boysDiscount = new ArrayList<>();
     boysDiscount = productsList.stream().filter(products -> Objects.equals(products.getCategory(), "boys")).toList();
     boysDiscount.forEach(products -> {
-        products.setPrice(products.getPrice() * 0.1);
+        products.setPrice(products.getPrice() * 0.9);
     });
     boysDiscount.forEach(System.out::println);
 
 
-    /*System.out.println("///////////////////////////////// es 4 ///////////////////////////////////////");
-    LocalDate today = LocalDate.now();
+    System.out.println("///////////////////////////////// es 4 ///////////////////////////////////////");
+   /* LocalDate today = LocalDate.now();
      List<Orders> tierOrder= ordersList.stream().filter(orders -> orders.getOrderDate().equals(today)).toList();
-     for (Orders orders:tierOrder){
-         if (orders.getCustomer())
      }*/
 }
 

@@ -26,10 +26,6 @@ public class Products {
         this.price = price;
     }
 
-    public String getProductName() {
-        return name;
-    }
-
     public String getCategory() {
         return category;
     }
